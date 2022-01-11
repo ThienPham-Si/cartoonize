@@ -1,0 +1,1 @@
+web: gunicorn cartoon.wsgi --log-file

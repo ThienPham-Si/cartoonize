@@ -52,7 +52,7 @@ def save(ReSized6, ImagePath, ImageName):
     # extension=os.path.splitext(ImagePath)[1]
     extension = '.jpeg'
     path = os.path.join(path1, extension)
-    newName="cartoonified_Image"
+    newName="result"
     STATIC_DIR = os.path.join(BASE_DIR, 'cartoon\\static', newName+extension)
     print(STATIC_DIR)
     cv2.imwrite(STATIC_DIR, cv2.cvtColor(ReSized6, cv2.COLOR_RGB2BGR))
