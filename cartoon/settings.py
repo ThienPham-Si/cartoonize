@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-lwhkxdqbu5d638ommw9wc#f4*p*kw(fx-vy_)e*muh-^4=9s(9'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['cartoonizeme.herokuapp.com/', '127.0.0.1']
 
 
 # Application definition
